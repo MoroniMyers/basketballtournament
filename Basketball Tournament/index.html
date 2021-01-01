@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>B-Ball Tournament</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!--Main JS-->
+        <script src="tournament.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">How It Works</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Team Line-Up/Play Tournament</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Results</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Basketball Tournament Simulator</div>
+                <div class="masthead-heading text-uppercase">Let's Play!</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Get Started</a>
+            </div>
+        </header>
+        <!-- How It Works-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">How It Works</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                       
+                        <h4 class="my-3">Teams</h4>
+                        <p class="text-muted">We have a line-up of elite teams ready to face off in an epic basketball tournament.</p>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <h4 class="my-3">Games</h4>
+                        <p class="text-muted">Each team in the line-up will play every other team twice, once as the home team and once as the visitor. The home team gets an extra 5 points to start off. If there is a tie, the teams will play an overtime. This score will be added to the previous score. If there is another tie, there will be a second overtime period which will be added to the total score. This will be done until there is no tie.</p>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <h4 class="my-3">Results</h4>
+                        <p class="text-muted">The results of this elite tournament will be posted immediately. The results will be displayed as a win-loss record next to the team's name. Make sure you check to see where your favorite team ended up.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team Name Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Team Line-up</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row" id="teamList">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                           
+                                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BYU_Cougars_logo.svg/1200px-BYU_Cougars_logo.svg.png" alt="" />
+                            
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">BYU</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://i.pinimg.com/originals/b7/99/09/b79909c9ba0b35ca09cff78d2a9a325a.jpg" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">Gonzaga</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Loyola_Ramblers_logo.svg/1200px-Loyola_Ramblers_logo.svg.png" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">Loyola</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="data:image/png;base64,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" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">Pacific</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://d2jyir0m79gs60.cloudfront.net/college/logos/Pepperdine_University.gif" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">Pepperdine</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/lldtlb95cayrajbnuisa" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">Portland</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://saintmaryssports.com/images/logos/site/site.png" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">Saint Marys</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://www.sandiego.edu/brand/images/logos/medallion/usd-logo-medallion-thumb.png" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">San Diego</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/San_Francisco_Dons_logo.svg/1200px-San_Francisco_Dons_logo.svg.png" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading">San Francisco</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Santa_Clara_U_Seal.svg/1200px-Santa_Clara_U_Seal.svg.png" alt="" />
+                           
+                            <div class="portfolio-caption">
+                                <li class="portfolio-caption-heading" >Santa Clara</li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger masthead" onclick="playGame()" href="#about">Play Tournament</a>
+                
+            </div>
+        </section>
+
+        <!-- Results-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Tournament Results</h2>
+                    <p id="output"></p>
+                </div><br><br><br>
+
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger masthead" onclick="playGame()" href="#about">Play Tournament Again</a>
+
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Our Website 2020</div>
+                   
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+     
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+     <!--Main JS-->
+     <script >
+        class Team
+        {
+        
+            teamName; 
+            wins; 
+            losses; 
+            winLossPct; 
+            games = []; 
+            
+            getTeam() 
+            {
+                return this.teamName;
+            }
+            
+            setTeam(sTeamName) 
+            {
+                this.teamName = sTeamName;
+            }
+            
+            setWinsLosses(iWins, iLosses) 
+            {
+                this.wins = iWins
+                this.losses = iLosses;
+                
+                this.winLossPct = this.calcWinLossPct;
+            }
+            
+            getWins() 
+            {
+                return this.wins;
+            }
+            
+            getLosses() 
+            {
+                return this.losses;
+            }
+            
+            calcWinLossPct() 
+            {
+                this.winLossPct = this.wins / this.losses;
+            }
+        }
+
+
+
+        class Game
+        {
+        
+            myScore; 
+            theirScore; 
+            winOrLoss; 
+            
+            
+            constructor (iScore, iTheirScore, sWinOrLoss)
+            {
+                this.myScore = iScore;
+                this.theirScore = iTheirScore;
+                this.winOrLoss = sWinOrLoss; 
+            }
+        }
+
+
+        class BasketballTeam extends Team
+        {
+            
+            totalPointsFor; 
+            totalPointsAgainst; 
+
+            addPointsFor(iAddPoints) 
+            {
+                this.totalPointsFor = this.totalPointsFor + iAddPoints;
+            }
+
+            addPointsAgainst(iSubtractPoints) 
+            {
+                this.totalPointsAgainst = this.totalPointsAgainst + iSubtractPoints;
+            }
+
+            getAllPoints() 
+            {
+                "Points for " + this.totalPointsFor + " and Points Against " + this.totalPointsAgainst;
+            }
+        }
+
+
+        function playGame() {
+            
+            var teams = [];
+            var selection = document.getElementById("teamList").getElementsByTagName("li");
+
+            
+            for (var i = 0; i < selection.length; i++) {
+                var oTeam = new BasketballTeam();
+
+                oTeam.setTeam(selection[i].innerHTML);
+                oTeam.setWinsLosses(0, 0);
+                teams.push(oTeam);
+            }
+
+
+            
+            for (var i = 0; i < teams.length - 1; i++) { 
+                for (var j = i + 1; j < teams.length; j++) { 
+                    var teamOneScore;
+                    var teamTwoScore;
+                    teamOneScore = (Math.floor(Math.random() * 101)) + 5;
+                    teamTwoScore = (Math.floor(Math.random() * 101));
+                    while (teamOneScore == teamTwoScore) {
+                        teamOneScore = teamOneScore + (Math.floor(Math.random() * 16));
+                        teamTwoScore = teamTwoScore + (Math.floor(Math.random() * 16));
+                    }
+                    
+                    teams[i].addPointsFor(teamOneScore);
+                    teams[i].addPointsAgainst(teamTwoScore);
+                    teams[j].addPointsFor(teamTwoScore);
+                    teams[j].addPointsAgainst(teamOneScore);
+                    
+                    if (teamOneScore > teamTwoScore) {
+                        var oGame = new Game(teamOneScore, teamTwoScore, "W");
+                        teams[i].games.push(oGame);
+                        teams[i].setWinsLosses(teams[i].wins + 1, teams[i].losses);
+                        teams[i].calcWinLossPct();
+
+                        oGame = new Game(teamTwoScore, teamOneScore, "L");
+                        teams[j].games.push(oGame);
+                        teams[j].setWinsLosses(teams[j].wins, teams[j].losses + 1);
+                        teams[j].calcWinLossPct();
+                    }
+                    else if (teamOneScore < teamTwoScore) {
+                        var oGame = new Game(teamOneScore, teamTwoScore, "L");
+                        teams[i].games.push(oGame);
+                        teams[i].setWinsLosses(teams[i].wins, teams[i].losses + 1);
+                        teams[i].calcWinLossPct();
+
+                        oGame = new Game(teamTwoScore, teamOneScore, "W");
+                        teams[j].games.push(oGame);
+                        teams[j].setWinsLosses(teams[j].wins + 1, teams[j].losses);
+                        teams[j].calcWinLossPct();
+                    }
+
+                    teamOneScore = (Math.floor(Math.random() * 101));
+                    teamTwoScore = (Math.floor(Math.random() * 101)) + 5;
+                    while (teamOneScore == teamTwoScore) {
+                        teamOneScore = teamOneScore + (Math.floor(Math.random() * 16));
+                        teamTwoScore = teamTwoScore + (Math.floor(Math.random() * 16));
+                    }
+                    
+                    teams[i].addPointsFor(teamOneScore);
+                    teams[i].addPointsAgainst(teamTwoScore);
+                    teams[j].addPointsFor(teamTwoScore);
+                    teams[j].addPointsAgainst(teamOneScore);
+                    
+                    if (teamOneScore > teamTwoScore) {
+                        var oGame = new Game(teamOneScore, teamTwoScore, "W");
+                        teams[i].games.push(oGame);
+                        teams[i].setWinsLosses(teams[i].wins + 1, teams[i].losses);
+                        teams[i].calcWinLossPct();
+
+                        oGame = new Game(teamTwoScore, teamOneScore, "L");
+                        teams[j].games.push(oGame);
+                        teams[j].setWinsLosses(teams[j].wins, teams[j].losses + 1);
+                        teams[j].calcWinLossPct();
+                    }
+                    else if (teamOneScore < teamTwoScore) {
+                        var oGame = new Game(teamOneScore, teamTwoScore, "L");
+                        teams[i].games.push(oGame);
+                        teams[i].setWinsLosses(teams[i].wins, teams[i].losses + 1);
+                        teams[i].calcWinLossPct();
+
+                        oGame = new Game(teamTwoScore, teamOneScore, "W");
+                        teams[j].games.push(oGame);
+                        teams[j].setWinsLosses(teams[j].wins + 1, teams[j].losses);
+                        teams[j].calcWinLossPct();
+                    }
+                }
+            }
+
+            var tempPos;
+
+            for (var i = 0; i < teams.length; i++) {
+                for (var j = 0; j < teams.length; j++) {
+                    if (teams[i].getWins() > teams[j].getWins()) {
+                        tempPos = teams[j];
+                        teams[j] = teams[i];
+                        teams[i] = tempPos;
+                    }
+                } 
+            }  
+
+            var output = "";
+            for (var i = 0; i < teams.length; i++) {
+                output = output + teams[i].getTeam() + " " + teams[i].getWins() + "-" + teams[i].getLosses() + '<br>';
+            }
+            document.getElementById("output").innerHTML = output;
+        }   
+     </script>
+        
+    </body>
+     
+</html>
+
+
+
+
